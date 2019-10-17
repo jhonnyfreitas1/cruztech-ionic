@@ -1,0 +1,20 @@
+{
+  "name": "front",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "proxies": [{
+    "name": "AuditoriaVentaSds",
+    "app_id": "",
+    "v2": true,
+    "typescript": true,
+    "proxies": [
+      {
+        "path": "",
+        "proxyUrl": "http://api:61473efb88527cc4192b6311e550e884@172.31.255.2/api/cliente/listAll"
+      }
+    ]
+}]
+}
+

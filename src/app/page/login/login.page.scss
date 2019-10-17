@@ -1,0 +1,82 @@
+.ocean {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    background: #fff;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    z-index: 1;
+}
+.botoes{
+    margin: 2em;
+    border-radius: 40%;
+
+}
+.segment-button-checked{
+    background-color: #1b94c5;
+
+}
+
+.slide-inner {
+    height:80%;
+    margin-top:1em;
+ 
+}
+.container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 75%;
+    margin: 0 auto;
+    z-index: 2;
+
+    &.top {
+        top: 5%;
+    }
+
+    &.bottom {
+        bottom: 30%;
+
+        span {
+            color: #fff;
+        }
+    }
+}
+
+
+.slide-inner {
+    width: 75%;
+    color: #fff;
+    background-color: #1b94c5;
+    border-radius: 10px;
+
+    ion-item {
+        --background: rgba(255, 255, 255, 0.2);
+        --border-radius: 10px;
+
+        ion-input {
+            --color: #fff;
+        }
+    }
+}
+
+
+span{
+    color:white;
+}
+.header{
+    border: solid 1px  #00d9d7;
+    color: #00d9d7;
+    text-align: center;
+    font-size: 100%;
+    position: relative;
+    background-color: black;
+    box-shadow:1px,12px black;
+}
+.cruz{
+  margin-right: auto;
+  margin-left: auto;
+
+}
