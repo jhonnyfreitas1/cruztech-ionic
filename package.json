@@ -28,7 +28,7 @@
     "@ionic/angular": "^4.7.1",
     "cordova-android": "^8.1.0",
     "core-js": "^2.5.4",
-    "grpc": "^1.20.2",
+    "grpc": "^1.24.9",
     "ngx-mask": "^8.0.6",
     "rxjs": "~6.5.1",
     "tslib": "^1.9.0",
